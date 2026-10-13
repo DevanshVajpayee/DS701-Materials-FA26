@@ -3,7 +3,7 @@ from otter.test_files import test_case
 OK_FORMAT = False
 
 name = "q2"
-points = 3
+points = 0
 
 @test_case(points=None, hidden=False)
 def test_ksweep_shape(cv_acc, best_metric, best_k, acc_knn_test, K_VALUES, METRICS):

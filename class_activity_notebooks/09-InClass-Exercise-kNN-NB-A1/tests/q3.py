@@ -3,7 +3,7 @@ from otter.test_files import test_case
 OK_FORMAT = False
 
 name = "q3"
-points = 3
+points = 0
 
 @test_case(points=None, hidden=False)
 def test_bakeoff_shape(models, cms, results, n_test):

@@ -3,7 +3,7 @@ from otter.test_files import test_case
 OK_FORMAT = False
 
 name = "q1"
-points = 2
+points = 0
 
 @test_case(points=None, hidden=False)
 def test_scaling_shapes(X_train_s, X_test_s, X_train, X_test, acc_raw, acc_scaled):

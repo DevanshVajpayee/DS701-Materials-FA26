@@ -3,7 +3,7 @@ from otter.test_files import test_case
 OK_FORMAT = False
 
 name = "q4"
-points = 3
+points = 0
 
 @test_case(points=None, hidden=False)
 def test_nb_by_hand_lecture_table(nb_scores, scores_raw, scores_smooth, nb_prediction, p_spam_smooth):
